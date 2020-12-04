@@ -1,19 +1,23 @@
 {
-  "name": "proyecto",
-  "version": "1.0.0",
-  "description": "primer proyecto con nodejs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jennimar17/Proyecto-coursera.git"
-  },
-  "author": "Jeniffer Hurtado Coronado",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jennimar17/Proyecto-coursera/issues"
-  },
-  "homepage": "https://github.com/Jennimar17/Proyecto-coursera#readme"
+    "name": "proyecto",
+    "version": "1.0.0",
+    "description": "primer proyecto con nodejs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "lite-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jennimar17/Proyecto-coursera.git"
+    },
+    "author": "Jeniffer Hurtado Coronado",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Jennimar17/Proyecto-coursera/issues"
+    },
+    "homepage": "https://github.com/Jennimar17/Proyecto-coursera#readme",
+    "devDependencies": {
+        "lite-server": "^2.6.1"
+    }
 }
